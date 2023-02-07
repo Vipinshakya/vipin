@@ -1,0 +1,255 @@
+*{
+    font-family: 'Itim', cursive;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.container{
+background-color: #000814;
+}
+.intro{
+     overflow: hidden;
+   
+    
+}
+.title{
+    height: 130vh;
+    display: flex;
+        align-items: center;
+}
+.title-text{
+    flex: 3;
+}
+.title-img{
+    flex: 1;
+}
+.titlename{
+   
+    font-size: 100vh;
+    color: #2ec4b6;
+
+}
+.titleimge{
+   
+    height: 100vh;
+    
+}
+.nameContainer{
+    height: 100vh;
+    background-color: #011627;
+    color: #ccff33;
+}
+.name{
+ font-size: 20vh;
+ text-align: center;
+ line-height: 100vh;
+ letter-spacing: 10px;
+ text-transform: uppercase;
+}
+.jobtitleContainer{
+    height: 100vh;
+}
+.dark{
+  
+   background: url(./img/bg1.png);
+    color: #ffff;
+    background-color: #ef233c;
+}
+.light{
+background: url(./img/bg2.png);
+background-color: #8338ec;
+color: #ffff;
+}
+.jobtitle{
+    font-size: 20vh;
+   
+    line-height: 100vh;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+   }
+   .phone{
+   
+    flex: 1;
+    width: 300px;
+    height: 600px;
+   position: relative;
+   
+  
+
+   }
+   .screen{
+    width: 264px;
+    height: 577px;
+    position: absolute;
+    top: 17px;
+    left: 18px;
+   
+    border-radius: 28px;
+    overflow: scroll;
+   }
+.screen::-webkit-scrollbar{
+    display: none;
+}
+   .project{
+    display: flex;
+   
+    align-items: center;
+    gap: 100px;
+    height: 100vh;
+    overflow: hidden;
+
+   }
+.projects{
+    display: flex;
+    flex-direction: column;
+    gap:100px;
+    padding: 0px 100px;
+     background-color: #edf6f9;
+}
+.projectTitle{
+    font-size: 10vh;
+    color: #000814;
+}
+.screenImg{
+    width: 100%;
+}
+.projectDetails{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    flex-direction: column;
+}
+.projectPara{
+    font-size:20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 10px;
+    
+}
+.projectTitle{
+    font-size: 30vh;
+    color: #0ead69;
+}
+.projectBtn{
+    position: relative;
+    width: 100px;
+    height: 60px;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+   
+    font-size: 15px;
+    font-weight: 900;
+    background-color: #bce784;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.projectBtn::after{
+   content: "view Demo";
+   width: 100%;
+   height: 100%;
+   position: absolute;
+   top: 0;
+   left: -100;
+   text-transform: uppercase;
+   transition: 1s ease;
+  align-items: center;
+   justify-content: center;
+  color: #edf6f9;
+   background-color: #555;
+
+}
+.projectHeading{
+    margin-top: 50px;
+    font-size: 20vh;
+    text-transform: uppercase;
+    font-weight: 500;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+   
+
+}
+.projectBtn:hover.projectBtn::after{
+    transform: translateX(100%);
+}
+@media (max-width:1000px) {
+    .container{
+        width:8000px
+    }
+    
+}
+.laptop{
+    flex: 1;
+    width: 900px;
+    height: 379px;
+   position: relative;
+
+}
+.screen-laptop{
+
+    width: 250px;
+    height: 160px;
+    position: absolute;
+    top: 18px;
+    left: 68px;
+   
+   
+    overflow: scroll;
+    
+}
+.laptopImg{
+    width: 100%;
+}
+.screen-laptop::-webkit-scrollbar{
+    display: none;
+}
+.githubContainer{
+    height: 100vh;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.githubTitle{
+    font-size: 10vh;
+    color: #555;
+
+}
+
+.githubChart{
+    width: 850px;
+    text-align: center;
+}
+.githubdates{
+    padding: 10px;
+    color: #555;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.boxContainer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+
+}
+.box{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    border-radius: 2px;
+    background-color:black;
+
+}
+
+.githubMonths:hover .active:nth-child(2n+1){
+    background-color: #0ead69;
+}
+.githubMonths:hover .active:nth-child(2n){
+    background-color: #0ead68cb;
+}
+.gitbtn{
+    width: 80px;
+    height: 40px;
+    background-color: #bce784;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px
+}
